@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Client",
+            "type": "python",
+            "request": "launch",
+            "module": "dbot",
+            "args": ["--start", "client"],
+            "justMyCode": true
+        },
+        {
+            "name": "Command",
+            "type": "python",
+            "request": "launch",
+            "module": "dbot",
+            "args": ["--start", "command"],
+            "justMyCode": true
+        }
+    ]
+}
